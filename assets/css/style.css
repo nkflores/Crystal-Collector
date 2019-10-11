@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#gem {
-    height: 75%;
-    width: 75%;
+#gems {
+    height: 50%;
+    width: 50%;
 }

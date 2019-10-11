@@ -8,13 +8,145 @@
     <title>Crystal Collector</title>
 </head>
 <body>
-    <div class="container">
+
+    <div class="container" >    
+        <div class="row">
+            <div class="col-md-12">
+            <div class="card mb-4"  >
+                <div class="card-header bg-dark text-white text-center">
+                    <h1>Crystal Collector</h1>
+                </div>
+                <div class="card-body bg-light">
+                    <h5 style="text-align: center;">INSTURCTIONS</h5>
+                    <p>   
+                        You will be given a random number at the start of the game. There are four crystals below.
+                        By clicking on a crystal you will add a specific amount of points to your total score.
+                        You win the game by matching your total score to random number, you lose the game if
+                        your total score goes above the random number. The value of each crystal is hidden from
+                        you until you click on it. Each time when the game starts, the game will change the values
+                        of each crystal.
+                    </p>
+                </div>
+            </div>  
+            </div>  
+        </div>
+    
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4"  >
+                    <div class="card-header bg-dark text-white text-center">
+                        <h5>Target Score</h5>
+                    </div>
+                    <div class="card-body bg-light">
+                        <h1 style="text-align: center;">0</h1>
+                        
+                    </div>
+                </div>  
+            </div>  
+
+            
+            <div class="col-md-6">
+                <div class="card mb-4"  >
+                    <div class="card-header bg-dark text-white text-center">
+                        <h5>Your Score</h5>
+                    </div>
+                    <div class="card-body bg-light">
+                        <h1 style="text-align: center;">0</h1>
+                        
+                    </div>
+                </div>  
+            </div>  
+        </div>
+    
+        <div class="row">
+                <div class="col-md-12">
+                <div class="card mb-4"  >
+                    <div class="card-header bg-dark text-white text-center">
+                        <h5>Crystal Selector</h5>
+                    </div>
+                    <div class="card-body bg-light text-center">
+                            <img id="gem" src="/assets/images/gem2.png" alt="">
+                            <img id="gem" src="/assets/images/gem1.png" alt="">
+                            <img id="gem" src="/assets/images/gem4.png" alt="">
+                            <img id="gem" src="/assets/images/gem5.png" alt="">
+                    </div>
+                </div>  
+                </div>  
+            </div>
+    
+            <div class="row">
+                <!-- THIS IS BLANK FOR ALIGNMENT PURPOSES -->
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div class="card mb-4"  >
+                        <div class="card-header bg-dark text-white text-center">
+                            <h5>Wins</h5>
+                        </div>
+                        <div class="card-body bg-light">
+                            <h1 style="text-align: center;">0</h1>
+                            
+                        </div>
+                    </div>  
+                </div>  
+                
+                <div class="col-md-3">
+                    <div class="card mb-4"  >
+                        <div class="card-header bg-dark text-white text-center">
+                            <h5>Losses</h5>
+                        </div>
+                        <div class="card-body bg-light">
+                            <h1 style="text-align: center;">0</h1>
+                        </div>
+                    </div>  
+                </div>  
+            </div>
+
+
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    
+
+
+    
+        <!-- <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header bg-dark text-white text-center">TARGET SCORE</div>
+                </div>
+                <div class="card-body text-center"><h1>0</h1></div>
+            </div>
+            <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-header bg-dark text-white text-center">TARGET SCORE</div>
+                    </div>
+                    <div class="card-body  text-center"><p><h1>0</h1></p></div>
+                </div>
+
+
+        </div> -->
+    </div>
+
+
+
+
+    </div>
+
+    <!-- <div class="container">
     
         <div class="jumbotron ml-auto bg-dark text-white" >
             <h1 class="text-center">Crystal Collector</h1>
         </div>
     
-        <div class="card ">
+        <div class="row">
             <div class="card-header bg-dark text-white">
               <h2 class="text-center">Instructions</h2>
             </div>
@@ -32,11 +164,32 @@
             </div>
           </div>
         <hr>
+
+        
+        <div class="row">
+        <div class="card col-sm-6 " >
+            <div class="card-header bg-light">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        
+          <div class="card bg-light col-sm-6 " >
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+
           <div class="card">
             <div class="row">
                 <div class="col-sm-6">
                         <div class="card bg-dark text-white text-center">
-                            <h2>Match This Score</h2>
+                            <h2>Target Score</h2>
                         </div>
                 </div>
                 <div class="col-sm-6">
@@ -57,7 +210,7 @@
             </div>
             
           </div>
-        <hr>
+        
 
           <div class="card">
                 <div class="row">
@@ -72,14 +225,14 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="card">
-                            <div class="card-body text-center">
+                            <div class="card-body text-center ">
                                 <img id="gem" src="/assets/images/gem2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="card">
-                            <div class="card-body text-center">
+                            <div class="card-body border-none text-center">
                                     <img id="gem" src="/assets/images/gem5.png" alt="">
                             </div>
                         </div>
@@ -112,7 +265,7 @@
     
     
     
-    </div>
+    </div> -->
 
 
 
