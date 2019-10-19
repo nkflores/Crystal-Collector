@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <title>Crystal Collector</title>
 </head>
@@ -37,8 +41,8 @@
                     <div class="card-header bg-dark text-white text-center">
                         <h5>Target Score</h5>
                     </div>
-                    <div class="card-body bg-light">
-                        <h1 style="text-align: center;">0</h1>
+                    <div  class="card-body bg-light text-center">
+                        <h1 id="target-score">0</h1>
                         
                     </div>
                 </div>  
@@ -50,9 +54,9 @@
                     <div class="card-header bg-dark text-white text-center">
                         <h5>Your Score</h5>
                     </div>
-                    <div class="card-body bg-light">
-                        <h1 style="text-align: center;">0</h1>
-                        
+                    <div  class="card-body bg-light text-center">
+                        <h1 id="player-score">0</h1>
+                            
                     </div>
                 </div>  
             </div>  
@@ -66,10 +70,10 @@
                         <h5>Crystal Selector</h5>
                     </div>
                     <div class="card-body bg-light text-center">
-                            <img id="gem1" src="assets/images/gem2.png" alt="">
-                            <img id="gem2" src="assets/images/gem1.png" alt="">
-                            <img id="gem3" src="assets/images/gem4.png" alt="">
-                            <img id="gem4" src="assets/images/gem5.png" alt="">
+                            <img id="gem-1" src="assets/images/gem2.png" alt="">
+                            <img id="gem-2" src="assets/images/gem1.png" alt="">
+                            <img id="gem-3" src="assets/images/gem4.png" alt="">
+                            <img id="gem-4" src="assets/images/gem5.png" alt="">
                     </div>
                 </div>  
                 </div>  
@@ -103,5 +107,11 @@
                 </div>  
             </div>
     </div>
-</body>
+
+    <script src="/assets/javascript/game.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    </body>
 </html>
